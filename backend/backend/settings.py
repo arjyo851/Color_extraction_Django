@@ -39,17 +39,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'drf_yasg',
-    'rest_framework',
-    'rest_framework.authtoken',
-    "allauth",
-    "allauth.account",
-    "allauth.socialaccount",
-    "allauth.socialaccount.providers.google",
-    'core.apps.CoreConfig',
-    'documentation.apps.DocumentationConfig',
-    'authentication.apps.AuthenticationConfig',
-    'corsheaders'
+    'drf_yasg', # swagger api
+    'rest_framework', # rest framework
+    'rest_framework.authtoken', # rest framework token
+    "allauth", # allauth adds login and signup functionality
+    "allauth.account", # allauth adds login and signup functionality specificially for accounts
+    "allauth.socialaccount", # allauth social accounts
+    "allauth.socialaccount.providers.google", # allauth google provider
+    'core.apps.CoreConfig', # core app
+    'documentation.apps.DocumentationConfig', # documentation app
+    'authentication.apps.AuthenticationConfig', # authentication app
+    'corsheaders' # cors 
 ]
 
 AUTHENTICATION_BACKENDS = [
@@ -171,6 +171,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
+
+AUTH_USER_MODEL = "authentication.ColorUser"
 
 LANGUAGE_CODE = 'en-us'
 
