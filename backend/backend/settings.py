@@ -46,9 +46,9 @@ INSTALLED_APPS = [
     "allauth.account",
     "allauth.socialaccount",
     "allauth.socialaccount.providers.google",
-    # 'core.apps.CoreConfig',
+    'core.apps.CoreConfig',
     # 'documentation.apps.DocumentationConfig',
-    'authentication.apps.AuthConfig',
+    'authentication.apps.AuthenticationConfig',
     'corsheaders'
 ]
 
