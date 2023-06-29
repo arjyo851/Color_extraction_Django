@@ -3,7 +3,7 @@
 - Clone the project
 
 ```bash
-https://github.com/arjyo851/HomeSolutions.git
+https://github.com/arjyo851/Color_extraction_Django.git
 ```
 
 - Navigate to the project directory:
@@ -12,9 +12,10 @@ https://github.com/arjyo851/HomeSolutions.git
 cd Color_extraction_Django
 ```
 
-- Activate  virtual environment
+- Make and Activate  virtual environment
 
 ```bash
+python -m venv myvenv
 myvenv\Scripts\activate.bat
 ```
 - Install the dependencies:
@@ -49,7 +50,7 @@ python manage.py runserver
 - Clone the project
 
 ```bash
-https://github.com/arjyo851/HomeSolutions.git
+https://github.com/arjyo851/Color_extraction_Django.git
 ```
 
 - Navigate to the project directory:
